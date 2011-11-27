@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 gem "hirb", "~> 0.5.0"
+gem 'gravatar_image_tag'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -21,6 +22,7 @@ group :test do
   gem 'autotest-fsevent', '0.2.4'
   gem 'autotest-growl', '0.2.16'
   gem 'spork', '0.9.0.rc8'
+  gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
