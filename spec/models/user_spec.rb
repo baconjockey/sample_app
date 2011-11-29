@@ -123,8 +123,6 @@ describe User do
              matching_user = User.authenticate(@attr[:email], @attr[:password])
              puts "Here's some output"
              puts matching_user
-             puts User.email
-             # puts "This is the @user" + @user
              matching_user.should == @user
            end
          end
